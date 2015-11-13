@@ -23,6 +23,7 @@ import junit.framework.Assert;
 public class genericTest001 {
 
 	AppiumDriver<WebElement> driver;
+	String[] calc = {"2", "2" , "+", "2", "="};
 
 	@BeforeClass
 	public void setup() throws MalformedURLException {
@@ -49,8 +50,8 @@ public class genericTest001 {
 	public void appiumtest001() throws InterruptedException {
 
 		Assert.assertNotNull(driver.getContext());
-		// System.out.println("The output from the calculator = "+new
-		// CalcMainActivity(driver).useCalculator("2", "2", "add"));
+		System.out.println(
+				"The output from the calculator = " + new CalcMainActivity(driver).useCalculator(calc));
 
 	}
 
