@@ -20,7 +20,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import junit.framework.Assert;
 
-public class CalcTest001 {
+public class MobileBrowserTest002 {
 
 	AppiumDriver<WebElement> driver;
 	String[] calc = {"2", "2" , "+", "2", "="};
@@ -33,9 +33,8 @@ public class CalcTest001 {
 		cap.setCapability("platformName", "Android");
 		cap.setCapability(MobileCapabilityType.VERSION, "4.4");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "test");
-		cap.setCapability(MobileCapabilityType.APP_PACKAGE, "com.android.calculator2");
+		cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Browser");
 		cap.setCapability("avd", "test");
-		cap.setCapability(MobileCapabilityType.APP_ACTIVITY, "Calculator");
 		driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 
 	}

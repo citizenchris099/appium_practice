@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12149" started-at="2015-11-13T11:53:10Z" finished-at="2015-11-13T11:53:22Z">
+  <suite name="Default suite" duration-ms="9431" started-at="2015-11-13T12:31:17Z" finished-at="2015-11-13T12:31:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12149" started-at="2015-11-13T11:53:10Z" finished-at="2015-11-13T11:53:22Z">
+    <test name="Default test" duration-ms="9431" started-at="2015-11-13T12:31:17Z" finished-at="2015-11-13T12:31:26Z">
       <class name="com.appium.ex.unittests.genericTest001">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.appium.ex.unittests.genericTest001@643b1d11]" name="setup" is-config="true" duration-ms="6264" started-at="2015-11-13T05:53:10Z" finished-at="2015-11-13T05:53:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.appium.ex.unittests.genericTest001@643b1d11]" name="setup" is-config="true" duration-ms="4299" started-at="2015-11-13T06:31:17Z" finished-at="2015-11-13T06:31:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="appiumtest001()[pri:0, instance:com.appium.ex.unittests.genericTest001@643b1d11]" name="appiumtest001" duration-ms="5467" started-at="2015-11-13T05:53:17Z" finished-at="2015-11-13T05:53:22Z">
+        <test-method status="PASS" signature="appiumtest001()[pri:0, instance:com.appium.ex.unittests.genericTest001@643b1d11]" name="appiumtest001" duration-ms="4643" started-at="2015-11-13T06:31:21Z" finished-at="2015-11-13T06:31:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appiumtest001 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appium.ex.unittests.genericTest001@643b1d11]" name="teardown" is-config="true" duration-ms="410" started-at="2015-11-13T05:53:22Z" finished-at="2015-11-13T05:53:22Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appium.ex.unittests.genericTest001@643b1d11]" name="teardown" is-config="true" duration-ms="480" started-at="2015-11-13T06:31:26Z" finished-at="2015-11-13T06:31:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

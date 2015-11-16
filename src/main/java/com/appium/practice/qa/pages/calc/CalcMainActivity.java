@@ -1,7 +1,6 @@
 package com.appium.practice.qa.pages.calc;
 
 import java.util.HashMap;
-import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,24 +24,18 @@ public class CalcMainActivity extends Page {
 
 	/**
 	 * constructor that uses shared isloaded service to check for two unique
-	 * elements. 
-	 * additionally it populates the hmap w/the locators needed to automate the calculator
+	 * elements. additionally it populates the hmap w/the locators needed to
+	 * automate the calculator I noticed a pattern with the id naming of the
+	 * buttons in the anroid calc app 'digit0' and so on
 	 * 
 	 * @param driver
 	 * @throws InterruptedException
 	 */
 	public CalcMainActivity(WebDriver driver) throws InterruptedException {
 		super(driver);
-		hmap.put("0", By.id("digit0"));
-		hmap.put("1", By.id("digit1"));
-		hmap.put("2", By.id("digit2"));
-		hmap.put("3", By.id("digit3"));
-		hmap.put("4", By.id("digit4"));
-		hmap.put("5", By.id("digit5"));
-		hmap.put("6", By.id("digit6"));
-		hmap.put("7", By.id("digit7"));
-		hmap.put("8", By.id("digit8"));
-		hmap.put("9", By.id("digit9"));
+		for (int i = 0; i < 10; i++) {
+			hmap.put(Integer.toString(i), By.id("digit" + Integer.toString(i)));
+		}
 		hmap.put("+", By.id("plus"));
 		hmap.put("-", By.id("minus"));
 		hmap.put("x", By.id("mul"));
@@ -55,6 +48,13 @@ public class CalcMainActivity extends Page {
 	 * elements
 	 */
 
+	/**
+	 * used to click the various buttons on the calculator
+	 * 
+	 * @param button
+	 *            : By
+	 * @return
+	 */
 	private CalcMainActivity clickButton(By button) {
 		_driver.findElement(button).click();
 		return this;
