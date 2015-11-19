@@ -1,11 +1,11 @@
-package com.appium.practice.qa.pages.calc;
+package com.scienergy.development.qa.mobile.pages.calc;
 
 import java.util.HashMap;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import com.appium.practice.qa.pages.Page;
+import com.scienergy.development.qa.mobile.pages.Page;
 
 /**
  * the main activity of the calculator app

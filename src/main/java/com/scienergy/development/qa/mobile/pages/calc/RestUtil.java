@@ -1,4 +1,4 @@
-package com.appium.practice.qa.pages.calc;
+package com.scienergy.development.qa.mobile.pages.calc;
 
 import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;

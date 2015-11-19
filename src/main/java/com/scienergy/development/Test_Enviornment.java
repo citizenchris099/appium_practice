@@ -1,4 +1,4 @@
-package com.appium.practice;
+package com.scienergy.development;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.appium.practice.qa;
+package com.scienergy.development.qa;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;

@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-import com.appium.practice.qa.pages.calc.CalcMainActivity;
+import com.scienergy.development.qa.mobile.pages.calc.CalcMainActivity;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;

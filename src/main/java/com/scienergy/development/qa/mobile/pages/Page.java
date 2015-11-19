@@ -1,4 +1,4 @@
-package com.appium.practice.qa.pages;
+package com.scienergy.development.qa.mobile.pages;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -16,10 +16,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.appium.practice.Test_Enviornment;
-import com.appium.practice.Test_EnviornmentPOJO;
-import com.appium.practice.qa.pages.calc.RestUtil;
-import com.appium.practice.qa.pages.calc.RndStringUtil;
+import com.scienergy.development.Test_Enviornment;
+import com.scienergy.development.Test_EnviornmentPOJO;
+import com.scienergy.development.qa.mobile.pages.calc.RestUtil;
+import com.scienergy.development.qa.mobile.pages.calc.RndStringUtil;
 
 /**
  * base page class that contains various utilities that are shared across all

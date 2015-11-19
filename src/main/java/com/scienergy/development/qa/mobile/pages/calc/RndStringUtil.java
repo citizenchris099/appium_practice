@@ -1,4 +1,4 @@
-package com.appium.practice.qa.pages.calc;
+package com.scienergy.development.qa.mobile.pages.calc;
 
 import java.util.Random;
 
